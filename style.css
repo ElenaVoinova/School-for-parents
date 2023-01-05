@@ -1,0 +1,140 @@
+/* Класс бокс адаптировать для мобильных */
+body {
+    background-image: url(baloons.jpg);
+    background-color: #4D96FF;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #F900BF;
+    font-family: 'Pacifico', cursive;
+}
+
+span {
+    color: #7900FF;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#myButton {
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.play {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://cdn.glitch.global/d279d149-a73c-4956-a05e-2fc500ce2c17/icon-play.png?v=1653997923229);
+    background-size: contain;
+}
+
+.pause {
+    background-image: url(https://cdn.glitch.global/d279d149-a73c-4956-a05e-2fc500ce2c17/icon-pause.png?v=1654001234964);
+}
+
+.middle-heading, .mid-heading {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #7900FF;
+    margin: 15px;
+}
+
+.one {
+    padding: 10px;
+    align-self: center;
+    margin: 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inbox {
+    align-self: center;
+    padding: 5px;
+}
+
+.to-start, .to-end {
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.window {
+    background-color: #93FFD8;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F900BF;
+    font-family: 'Pacifico', cursive;
+    height: auto;
+    width: 140px;
+}
+h4 {
+    font-size: 30px;
+}
+
+.change {
+    font-size: 40px;
+    color: #FF008E;
+    font-family: 'Pacifico', cursive;
+} 
+
+.days, .hours, .minutes, .seconds {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.inDay, .inHour, .inMinute, .inSecond {
+    font-size: 35px;
+    margin: 10px;
+}
+
+@media all and (max-width: 800px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading {
+        margin: 30px;
+    }
+
+    .main-photo {
+        width: 75%;
+        height: auto;
+    }
+}
+
