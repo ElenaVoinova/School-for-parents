@@ -22,7 +22,7 @@ buttonToStart.addEventListener("click", () => {
 })
 
 function coursesTime() {
-const courses = new Date("June 06, 2022 12:00");
+const courses = new Date("January 25, 2025 12:00");
 const now = new Date();
 const diff = courses - now;
 
